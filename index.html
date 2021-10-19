@@ -265,15 +265,16 @@
 
     <section class="p-5 container ">
         <h2 class="text-center mb-5 fw-bold ">Frequently Asked Questions</h2>
-        <div class="accordion" id="questions">
+        <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Accordion Item #1
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#questions">
+                    data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the
                         collapse
@@ -289,12 +290,13 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
                         Accordion Item #2
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#questions">
+                    data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
                         collapse
@@ -310,12 +312,13 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Accordion Item #3
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#questions">
+                    data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
                         collapse
@@ -329,6 +332,90 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+
+    <section class="p-4 bg-primary text-light">
+        <div class="container">
+            <h2 class="text-center mb-3 fw-bold">Our Team</h2>
+            <p class="text-center mb-5 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit nobis
+                temporibus similique. Impedit nobis cumque quos suscipit explicabo aut hic, ipsum, quia fugiat ratione
+                excepturi totam minima praesentium quibusdam deleniti! Earum veritatis reiciendis blanditiis fugiat.</p>
+            <div class="row g-4 ">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
+                                alt="">
+                            <h3 class="card-title mb-3">
+                                John Doe
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3"
+                                alt="">
+                            <h3 class="card-title mb-3">
+                                John Doe
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/13.jpg" class="rounded-circle mb-3"
+                                alt="">
+                            <h3 class="card-title mb-3">
+                                John Doe
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle mb-3"
+                                alt="">
+                            <h3 class="card-title mb-3">
+                                John Doe
+                            </h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="p-5 bg-dark text-light text-center">
+        <div class="container">
+            <p class="lead"> Copyright &copy; 2021 Bootstrap Learning</p>
         </div>
     </section>
 
