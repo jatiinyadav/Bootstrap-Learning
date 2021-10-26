@@ -36,7 +36,7 @@ Save changes and Commit changes
 git add .
 ```
 ```bash
-git commit -m "add massage"
+git commit -m "add message"
 ```
 ### Step-5:
 Make PR
