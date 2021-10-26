@@ -43,7 +43,7 @@ Make PR
 ```bash
 git push origin branch_name
 ```
-Then go to github repo, there will automatically a button to create pull request will be shown, just click that button.
+Then go to github repo, there will be automatically a button generated to create pull request, just click that button.
 
 Congratulations🎉, you have successfully created the PR.
 
