@@ -1,11 +1,10 @@
-<img src="https://socialify.git.ci/jatiinyadav/Bootstrap-Learning/image?description=1&language=1&name=1&owner=1&theme=Light">
+<img src="https://socialify.git.ci/jatiinyadav/Bootstrap-Learning/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Brick%20Wall&theme=Light">
 
-## 📚 Description
-This is a repository that I created while learning Bootstrap. This repo was created purely for transparency purposes and self-learning.
-This repo is purely made with Bootstrap.
+<!-- ## 📚 Description
+This repo was created purely for transparency purposes and self-learning and made with 	![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat-square&logo=bootstrap&logoColor=white) -->
 
-## 👨‍💻 Tech Stacks used
-<img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/html-5.svg" /> <img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/css-3.svg" /> <img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/bootstrap.svg" />
+<!-- ## 👨‍💻 Tech Stacks used
+<img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/html-5.svg" /> <img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/css-3.svg" /> <img height="50" width="50" src="https://github.com/tomchen/stack-icons/blob/master/logos/bootstrap.svg" /> -->
 
 ## 🤝 Wanna Contribute to this project
 You can contribute to this project by following these simple steps:
@@ -47,6 +46,8 @@ git push origin branch_name
 Then go to github repo, there will be automatically a button generated to create pull request, just click that button.
 
 Congratulations🎉, you have successfully created the PR.
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://jatiinyadav.github.io/)
 
 ## Code of Conduct
 
