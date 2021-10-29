@@ -48,6 +48,10 @@ Then go to github repo, there will be automatically a button generated to create
 
 Congratulations🎉, you have successfully created the PR.
 
-## Deployment
-This repo used to make a simple website deployed with github page.
-Follow this link: https://jatiinyadav.github.io/Bootstrap-Learning/
+## Code of Conduct
+
+You can find Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
+### License
+
+This project includes [MIT License](/LICENSE).
